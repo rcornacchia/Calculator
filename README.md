@@ -1,4 +1,4 @@
-This is a minimal iOS Calculator.
+#This is a minimal iOS Calculator.
 
 Very similar to the Calculator created in the Stanford iOS class
 on iTunes U.
