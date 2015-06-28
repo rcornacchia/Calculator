@@ -19,12 +19,12 @@ class CalculatorBrain
         var description: String {
             get {
                 switch self {
-                case .Operand(let operand):
-                    return "\(operand)"
-                case .UnaryOperation(let symbol, _):
-                    return symbol
-                case .BinaryOperation(let symbol, _):
-                    return symbol
+                    case .Operand(let operand):
+                        return "\(operand)"
+                    case .UnaryOperation(let symbol, _):
+                        return symbol
+                    case .BinaryOperation(let symbol, _):
+                        return symbol
                 }
             }
         }
